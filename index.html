@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraBooks</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Suspense</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Ficção</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Romance</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Drama</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Dark romance</a>
+        </li>
+      </ul>
+      <img src="img/logo de um site de livros redonda com o fundo branco.png"width="160" alt="Logo da Alurabooks" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Betto's</b>Books</h1>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu" class="opções__rotulo">
+          <li class="opções__item">Categorias</li>
+        </label>
+
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Suspense</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Ficção</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Romance</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Drama</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Dark romance</a>
+        </li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+      </ul>
+
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+          class="container__imagem container__imagem-transparente"></a>
+      <a href="#" class="container__link">
+        <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+        <p class="container__texto">Minha sacola</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já é um leitor ou quer virar um?
+    </h2>
+    <p class="banner__texto">Encontre em nosso site os melhores livros para você</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Livros de suspense</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/Manual de assassinato para boas garotas capa do livro a good girls guide to murder.jpg"
+            alt="Livro sobre um assassinato na cidade"></div>
+        <div class="swiper-slide"><img src="img/A empregada_.jpg"
+            alt="Livro sobre uma empregada que é uma ex-presidiaria"></div>
+        <div class="swiper-slide"><img src="img/O Homem de Giz.jpg" alt="Livro sobre javascript assertivo da alura books">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/transferir (22).jpg" alt="Livro sobre uma garota que mata sua familia" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Uma família feliz (1).jpg" alt="Livro sobre uma familia nada feliz" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/verity.jpg" alt="Livro sobre acessibilidade" />
+        </div>
+      </div>
+
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+
+      <div class="card">
+        <div class="card__descrição">
+          <div class="descrição">
+            <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+            <h2 class="descrição__titulo-livro">Bunny</h2>
+            <p class="descrição__texto">
+              Uma história incirvel que vai te arrepiar dos pés a cabeça
+            </p>
+          </div>
+          <img src="img/Bunny, De Mona Awad_ Editorial Globo Livros, Tapa Mole, Edición 1 En Português, 2024.jfif" class="descrição__imagem" />
+        </div>
+        <div class="card__botões">
+          <ul class="botões">
+            <li class="botões__item">
+              <img src="img/Favoritos.svg" alt="Favoritar livro" />
+            </li>
+            <li class="botões__item">
+              <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+            </li>
+          </ul>
+          <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Livros de romance</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/__ _Melhor que nos Filmes_, de Lynn Painter, é fênomeno no TikTok.jpg"
+            alt="Livro sobre romance adolescente"></div>
+        <div class="swiper-slide"><img src="img/A hipótese do amor.jfif" alt="Livro sobre liderança em design da alura books">
+        </div>
+        <div class="swiper-slide"><img src="img/E Assim Que Acaba                    - Record.jfif" alt="Livro sobre javascript assertivo da alurabooks">
+        </div>
+        <div class="swiper-slide"><img src="img/Os sete maridos de Evelyn Hugo.jfif" alt="Livro Guia front end"></div>
+        <div class="swiper-slide"><img src="img/Se Ele Estivesse Comigo, De Laura Nowlin_ Editora Harpercollins, Capa Mole Em Português.jfif" alt="Livro sobre portugol"></div>
+        <div class="swiper-slide"><img src="img/Uma Segunda Chance - Colleen Hoover.jfif" alt="livro sobre acessibilidade"></div>
+      </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="card">
+        <!-- 1º linha -->
+        <div class="card__descrição">
+          <!-- 1º coluna -->
+          <div class="descrição">
+            <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+            <h3 class="descrição__titulo">Autora do Mês</h3>
+          <h2 class="descrição__titulo-livro">Taylor Jenkins Reid
+          </h2>
+          <p class="descrição__texto">Taylor nasceu na cidade de Acton, em Massachusetts, em 1983. Começou a escrever enquanto trabalhava em uma escola de ensino médio, até conseguir um contrato de publicação. Trabalhou com produção de filmes, tendo trabalhado em escalação de elenco por três anos até se formar na faculdade e conseguir outro emprego.Seu primeiro livro, Para Sempre Interrompido, foi publicado em 2013. Os Sete Maridos de Evelyn Hugo foi publicado em 2017, narrando a história de uma ficcional antiga estrela de Hollywood, Evelyn Hugo, enquanto ela revela misteriosos segredos da sua vida e de seus glamourosos casamentos.
+
+            Seu livro de 2019, Daisy Jones & The Six, reconta os altos e baixos de uma ficcional banda de rock dos anos 70. Ela vem sendo adaptado para uma minissérie pelo Amazon Studios, co-produzida por Reese Witherspoon. O livro é vagamente baseado na carreira da banda Fleetwood Mac e a gravação de seu álbum de sucesso Rumours.
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/Taylor Jenkins Reid_ How I became a bestselling author.jfif" class="descrição__imagem">
+      </div>
+
+        <!-- 2º linha -->
+        <div class="card__botões">
+          <!-- 1º coluna -->
+          <ul class="botões">
+            <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+            <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+          </ul>
+          <!-- 2º coluna -->
+          <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Romance</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Terror</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Ação</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Suspense</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Ficção</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Drama</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Dark romance</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Aventura</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <div class="contato__descrição">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">
+        Atualizações de e-books, novos livros, promoções e outros.
+      </p>
+    </div>
+    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email">
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Betto's</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Editoras</li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Arqueiro</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Jangada</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__item">
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Intrtínseca</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Seguinte</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Darkside</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Companhia das letras</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Galera</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Alt</a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>
